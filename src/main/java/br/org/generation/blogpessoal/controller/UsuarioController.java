@@ -13,7 +13,7 @@ import org.springframework.web.bind.annotation.RestController;
 
 import br.org.generation.blogpessoal.model.UserLogin;
 import br.org.generation.blogpessoal.model.Usuario;
-import br.org.generation.blogpessoal.seguranca.UsuarioService;
+import br.org.generation.blogpessoal.service.UsuarioService;
 
 @RestController
 @RequestMapping("/usuarios")
